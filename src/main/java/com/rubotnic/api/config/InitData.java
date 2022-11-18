@@ -18,7 +18,7 @@ public class InitData implements CommandLineRunner {
         repository.save(new Person("Åsa", "Jonsson", "asa.jonsson@lexicon.se", "C# Teacher"));
         repository.save(new Person("Simon", "Elbrink", "simon.elbrink@lexicon.se", "Java Teacher"));
         repository.save(new Person("Mehrdad", "Javan", "mehrdad.javan@lexicon.se", "Java Teacher"));
-//        repository.save(new Person("Erik", "Svensson", "asa.jonsson@lexicon.se", "Java Teacher"));
+        repository.save(new Person("Erik", "Svensson", "erik.svensson@lexicon.se", "Java Teacher"));
 
     }
 }
